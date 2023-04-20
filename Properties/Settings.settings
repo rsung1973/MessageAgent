@@ -11,5 +11,14 @@
     <Setting Name="PushMessageUrl" Type="System.String" Scope="Application">
       <Value Profile="(Default)">http://localhost:17185/InfoCenter/PushMessage</Value>
     </Setting>
+    <Setting Name="BatchJobIntervalInSeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="AWTEK_MQ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EXAWTKMQ</Value>
+    </Setting>
+    <Setting Name="AWTEK_MQ_Only" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
